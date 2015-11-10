@@ -1,0 +1,24 @@
+{
+    "homepage": "http://wixtoolset.org/",
+    "license": "https://wix.codeplex.com/license",
+    "version": "3.10.1",
+    "url": "https://download-codeplex.sec.s-msft.com/Download/Release?ProjectName=wix&DownloadId=1504735&FileTime=130906491728530000&Build=21031#/dl.zip",
+    "hash": "51e05636fa9d73c50a45d8edfe0406e811d529877c5b2cc5871bcd648003860a",
+    "env_set": { "WIX": "$dir" },
+    "bin": [
+        "candle.exe",
+        "dark.exe",
+        "heat.exe",
+        "insignia.exe",
+        "light.exe",
+        "lit.exe",
+        "lux.exe",
+        "melt.exe",
+        "nit.exe",
+        "pyro.exe",
+        "retina.exe",
+        "shine.exe",
+        "smoke.exe",
+        "torch.exe"
+    ]
+}
