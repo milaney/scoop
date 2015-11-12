@@ -1,0 +1,21 @@
+{
+    "homepage": "http://windows.php.net",
+    "version": "7.0.0rc7",
+    "license": "http://www.php.net/license/",
+    "architecture": {
+        "64bit": {
+            "url": "http://windows.php.net/downloads/qa/php-7.0.0RC7-Win32-VC14-x64.zip",
+            "hash": "sha1:e82b96fbec510e3618379beb92281176ea560c78"
+        },
+        "32bit": {
+            "url": "http://windows.php.net/downloads/qa/php-7.0.0RC7-Win32-VC14-x86.zip",
+            "hash": "sha1:b63e645ec142fbd5daad43757ca2164aa388e57a"
+        }
+    },
+    "bin": "php.exe",
+    "post_install": "cp \"$dir\\php.ini-production\" \"$dir\\php.ini\"",
+    "checkver": {
+        "url": "http://windows.php.net/qa/",
+        "re": "<h3 id=\"php-7.0\".*?>.*?\\(([0-9\\.]+)\\)</h3>"
+    }
+}
